@@ -1,0 +1,629 @@
+body {
+	margin: 0;
+	font-size: 14px;
+}
+
+
+*,
+*:before, 
+*:after {
+
+	box-sizing: border-box;
+}
+/*CONTAINER*/
+.container	{
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+/*HEADER*/
+.header	{
+	width: 100%;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+}
+
+.header__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__logo {
+	padding-top: 14px;
+	font-size: 30px;
+	color: #0eaeae;
+}
+
+
+/*NAV*/
+.nav {
+	font-size: 13px;
+	text-transform: uppercase;
+}
+
+.nav__link {
+	margin-left: 20px;
+	text-decoration: none;
+	color:#fff;
+}
+
+.nav__link:hover {
+	color: #04d4c8;
+}
+
+
+/*Banner*/
+.banner {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	width: 100%;
+	height: 100vh;
+
+	background: url(img/tajem_master_01.jpg) center no-repeat;
+	background-size: cover;
+}
+
+.banner__tytle {
+	text-align: center;
+	font-size: 32px;
+	color: #fff;
+	
+	}
+
+.border {
+	border-bottom: 1px solid;
+	width: 50px;
+	color: #0eaeae;
+
+	margin: 0 auto;
+
+	padding-top: 20px;
+}
+
+.banner__subtytle {
+	width: 100%;
+
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	margin-top: 20px;
+
+}
+
+.banner__btn {
+	margin: 0 auto;
+	margin-top: 50px;
+	padding-top: 10px;
+	text-align: center;
+	border: 2px solid;
+	width: 140px;
+	height: 40px;
+	color: #0eaeae;
+
+	
+}
+
+.banner__btn:hover {
+	background-color: #0eaeae;
+}
+
+.jj {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #0eaeae;
+
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 16px;
+	padding-right: 16px;
+
+
+	
+}
+
+.jj:hover {
+	color: #fff;
+}
+
+
+/*Our Story*/
+.section_ourstoru {
+	width: 100%;
+	height: 400px;
+}
+
+.ourstory__inner {
+	display: flex;
+}
+
+.outstory__img {
+	padding-top: 70px;
+	padding-left: 75px;
+}
+
+
+.ourstory__title {
+	font-size: 22px;
+	color: #000;
+	padding-top: 70px;
+	padding-left: 95px;
+}
+
+.ourstory__sudtitle {
+	font-size: 14px;
+	width: 546px;
+	height: 145px;
+	padding-top: 25px;
+}
+
+.ourstory__subb__title {
+	font-size: 14px;
+	padding-top: 20px;
+
+}
+
+.jjj {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #0eaeae;
+
+	padding-top: 5px;
+	padding-bottom: 10px;
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+.jjj:hover {
+	color: #fff;
+}
+
+.ourstory__btn {
+	
+	margin-top: 30px;
+	padding-top: 5px;
+	text-align: center;
+	border: 2px solid;
+	width: 140px;
+	height: 40px;
+	color: #0eaeae;
+}
+
+.ourstory__btn:hover {
+	background-color:  #0eaeae;
+}
+
+.watch__inner {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	width: 100%;
+	height: 550px;
+
+	background: url(img/tajem_master_06.jpg) center no-repeat;
+	background-size: cover;
+
+	margin-top:  70px;
+}
+
+.watch__title {
+	font-size: 16px;
+	padding-top: 35px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+}
+
+.watch {
+	margin: 0 auto;
+	width: 100px;
+	height: 100px;
+
+}
+
+
+/*EXPERTISE*/
+
+.expertise__inner {
+	padding-top: 70px;
+	height: 755px;
+}
+
+ .expertise__title {
+	font-size: 22px;
+	text-transform: uppercase;
+	color: #000;
+	text-align: center;
+ }
+
+ .expertise__subtitle {
+	font-size: 14px;
+	color: #b5b5b6;
+	text-align: center;
+ }
+
+ .border__expertise {
+	border-bottom: 1px solid;
+	width: 50px;
+	color: #c6c4c9;
+
+	margin: 0 auto;
+
+	padding-top: 20px;
+}
+ 
+ .expertise {
+ 	display: flex;
+ }
+
+ .expertise__item {
+ 	padding-top: 80px;
+ 	margin: 0 auto;
+	width: 310px;
+	height:250px;
+	text-align: center;
+
+ }
+
+ .item__title {
+ 	padding-top: 30px;
+ 	font-size: 14px;
+ 	text-align: center;
+
+ }
+
+ .item__sudtitle {
+ 	padding-top: 15px;
+ }
+
+.item__titlel {
+	padding-top: 37px;
+}
+
+
+
+/*Team*/
+.section__team {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	width: 100%;
+	height: 712px;
+
+	background: url(img/33333_06.jpg) center no-repeat;
+	background-size: cover;
+}
+
+.team__inner {
+	text-align: center;
+
+}
+
+.team__title {
+	margin: 0 auto;
+	font-size: 22px;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+
+.border__team {
+	border-bottom: 1px solid;
+	width: 50px;
+	color: #655d80;
+
+	margin: 0 auto;
+
+	padding-top: 20px;
+}
+
+.team__subtitle {
+	font-size: 14px;
+	color: #fff;
+}
+
+.team {
+	display: flex;
+}
+
+.team__photo {
+	margin: 0 auto;
+	padding-top: 45px;
+	padding-left: 10px;
+}
+
+.team__btn {
+	margin-top: -4px;
+	padding-top: 20px;
+	border: 2px solid;
+	width: 220px;
+	height: 80px;
+	color: #76758a;
+}
+
+.btn__team {
+	font-size: 14px;
+	text-decoration: none;
+	color: #fff;
+}
+
+.btn__subtitle {
+	font-size: 13px;
+	color: #c1c0c7;
+}
+
+.photo__subtitle {
+	padding-top: 66px;
+	font-size: 14px;
+	color: #fff;
+}
+
+.subtitle__btn {
+	margin: 0 auto;
+	margin-top: 35px;
+	padding-top: 7px;
+	text-align: center;
+	border: 2px solid;
+	width: 140px;
+	height: 40px;
+	color: #0eaeae;
+}
+
+.subtitle__btn:hover {
+	background-color: #0eaeae;
+}
+
+.hiring {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #0eaeae;
+
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+.hiring:hover {
+	color: #fff;
+}
+
+
+/*WORKS*/
+
+.works__inner {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 70px;
+
+}
+
+.works__title {
+
+	font-size: 22px;
+	margin-bottom: 67px;
+
+}
+
+.Project {
+	margin-bottom: 67px;
+	font-size: 14px;
+	text-decoration: none;
+	color: #413d4b;
+}
+
+.section__OURWORKS {
+	
+}
+
+.works__photo {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	width: 100%;
+	height: 400px;
+
+	background: url(img/5555_19.jpg) center no-repeat;
+	background-size: cover;
+
+}
+
+.works__btn {
+	margin: 0 auto;
+	margin-top: 70px;
+	padding-top: 10px;
+	text-align: center;
+	border: 2px solid;
+	width: 140px;
+	color: #0eaeae;
+	height: 40px;
+}
+
+.works__btn:hover {
+	background-color: #0eaeae;
+}
+
+.jjjj {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #0eaeae;
+
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+.jjjj:hover {
+	color: #fff;
+}
+
+
+/*Text*/
+
+.section__text {
+	margin-top: 70px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	width: 100%;
+	height: 500px;
+
+	background: url(img/6666_06.jpg) center no-repeat;
+	background-size: cover;
+}
+
+.text__inner {
+	text-align: center;
+ }
+
+.text__img {
+	padding-top: 65px;
+	align-items: center;
+}
+
+ .text__title {
+ 	padding-top: 40px;
+ 	margin: 0 auto;
+ 	text-align: center;
+ 	width: 775px;
+ 	font-size: 16px;
+ 	color: #fff;
+ }
+
+ .name__text {
+ 	font-size: 14px;
+ 	color: #fff;
+ 	padding-top: 50px;
+ }
+
+ .subname {
+ 	font-size: 13px;
+ 	color: #cfced4;
+ 	padding-top: 10px;
+ }
+
+ .people {
+ 	padding-top: 45px;
+ }
+
+
+ /*firms*/
+
+ .firms__title {
+ 	font-size: 22px;
+ }
+
+ .firms__inner {
+ 	padding-top: 65px;
+ 	display: flex;
+ 	justify-content: space-between;	
+ }
+
+ .dextt {
+ 	padding-top: 15px;
+ }
+
+ .name {
+ 	margin-top: 15px;
+ 	width: 450px;
+ 	height: 45px;
+ }
+
+ .mail {
+ 	margin-top: 15px;
+ 	width: 450px;
+ 	height: 45px;
+ }
+
+ .subject {
+	margin-top: 15px;
+ 	width: 450px;
+ 	height: 45px;
+ }
+
+ .text {
+ 	margin-top: 15px;
+ 	width: 450px;
+ 	height: 200px;
+ }
+
+ .happy {
+ 	padding-left: 100px;
+ 	font-size: 22px;
+ }
+
+.happy__img {
+	padding-top: 20px;
+}
+
+.firms__btn {
+	margin: 0 ;
+	margin-top: 18px;
+	padding-top: 5px;
+	text-align: center;
+	border: 2px solid;
+	width: 140px;
+	color: #0eaeae;
+	height: 40px;
+}
+
+.firms__btn:hover {
+	background-color: #0eaeae;
+}
+
+.jjjjj {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #0eaeae;
+
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+.jjjjj:hover {
+	color: #fff;
+}
+
+/*FOOTER*/
+.section__footer {
+	margin: 0 auto;
+	margin-top: 70px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	width: 100%;
+	height: 400px;
+
+	background: url(img/4884353445_16.jpg) center no-repeat;
+	background-size: cover;
+}
+
+.footer__inner {
+	display: flex;
+	padding-top: 70px;
+}
+
+.footer__title {
+	font-size: 30px;
+	color: #0bb1b1;
+}
